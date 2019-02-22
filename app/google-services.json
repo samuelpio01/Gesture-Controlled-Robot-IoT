@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994655558337",
+    "firebase_url": "https://gesturecontrolledrobot-cdacp.firebaseio.com",
+    "project_id": "gesturecontrolledrobot-cdacp",
+    "storage_bucket": "gesturecontrolledrobot-cdacp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994655558337:android:ba46f1e09cc4a122",
+        "android_client_info": {
+          "package_name": "com.example.sunbeam.gesturecontrolledrobot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994655558337-2362urhhi5u2jo976g7oh6qmc1gtb9u6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunbeam.gesturecontrolledrobot",
+            "certificate_hash": "85f6bda2c04342b26e95eb6ae9a6658894debe5b"
+          }
+        },
+        {
+          "client_id": "994655558337-m1qr794co4mok9sd0qrpo9ngaqtu8p7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOuM0k-SYDUdyS3l736bRujLo3xPAp800"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994655558337-m1qr794co4mok9sd0qrpo9ngaqtu8p7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
