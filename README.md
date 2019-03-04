@@ -43,7 +43,7 @@ These 3 output pins are analog in nature and their outputs are proportional to t
  
  The Server was created using NodeJS and the Express Framework. Whenever any client (Accelerometer via ATmega32A and ESP8266  or Android Application or Browser) requests the Server by calling a URL the server will respond with a payload, and this is how we have used it to Update the direction value in the database.
  
- The Android Application consists of 2 activities. The first is just a welcome page and the second has the buttons for moving the cart by sending a request to the server. These are image buttons. There are 5 buttons as mentioned before for 5 diffferent functions (STOP, FORWARD, REVERSE, LEFT, RIGHT). There is also an area which shows the last actioned performed by the cart which gets updated via Google Cloud Messaging(GCM). Whenever there is an update in value into the database by the Accelerometer or the App, it is reflected back on the App via GCM.
+ The Android Application consists of 2 activities. The first is just a welcome page and the second has the buttons for moving the cart by sending a request to the server. These are image buttons. There are 5 buttons as mentioned before for 5 diffferent functions (STOP, FORWARD, REVERSE, LEFT, RIGHT). There is also an area which shows the last actioned performed by the cart which gets updated via _Firebase Cloud Messaging(FCM)_ earlier known as Google Cloud Messaging (GCM). Whenever there is an update in value into the database by the Accelerometer or the App, it is reflected back on the App via FCM.
  
  __Receiving End__
  
